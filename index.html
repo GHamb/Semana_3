@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul id="menu">
+                <a href="">Cadastro</a>
+                <a href="consulta.html">Consulta</a>
+            </ul>
+            <img src="https://image.flaticon.com/icons/svg/2575/2575819.svg" alt="">
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2 id="titulo">Cadastre um novo Produto</h2>
+            <div id="cont">
+
+                <label id="nome_prod" for="label_prod">Nome do Produto: </label>
+                <br><input id="label_prod" type="text">
+                <br>
+                <label id="nserie" for="input_serie">Número de série :</label><br>
+                <input id="input_serie" type="text" oninput=ponto(this)>
+                <br>
+                <label id="tipo" for="option"> Tipo do Produto:</label> <br>
+                <select name="" id="option">
+                    <optgroup label="Tipo do Produto" id="">
+                        <option value="TIPO 1">Tipo 1</option>
+                        <option value="TIPO 2">Tipo 2</option>
+                        <option value="TIPO 3">Tipo 3</option>
+                        <option value="TIPO 4">Tipo 4</option>
+                        <option value="TIPO 5">Tipo 5</option>
+                        <option value="TIPO 6">Tipo 6</option>
+                    </optgroup>
+                </select>
+                <br>
+                <label id="qtd" for="">Quantidade (Un)<input type="number" name="" id="quantidade"></label><br>
+                <label for="desc" id="descrição">
+                    Características/Descrição: <br>
+                    <textarea name="sobre" id="desc" placeholder="Sobre o produto"> </textarea>
+                </label>
+
+                <br>
+                <input type="button" value="Salvar" id="salvar" onclick=act()>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <img src="https://image.flaticon.com/icons/svg/2825/2825458.svg" alt="" id="figrp">
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+
+
+</html>

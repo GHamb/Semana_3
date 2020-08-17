@@ -1,0 +1,190 @@
+:root{
+    --main-cl: #802a9c;
+    --color-lt: black;
+    --main-bg:rgb(118, 172, 223);
+    --bg-hover:#a931d1;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--main-bg);
+}
+
+header{
+    background-color: var(--main-cl);
+    height: 9vh;
+    border-bottom: 3px solid black;
+    
+}
+
+header img{
+    width: 6vw;
+    height: 6vh;
+    margin-top: 15px;
+}
+
+header ul a{
+    text-decoration: none;
+    color: var(--color-lt);
+    position: relative;
+    float: right;
+    margin: 35px 35px 0px 0px;
+    font-size: 1.5em;
+}
+
+#titulo{
+    text-align: center;
+    color: var(--color-lt);
+    font-size: 1.6em;
+    margin-top: 45px;
+    background-color:var(--main-cl);
+    border: solid 2px black;
+    width: 20%;
+    margin: 30px auto 0 auto;
+    border-radius: 20px;
+}
+
+#cont{
+    background-color: var(--main-cl);
+    width: 22vw;
+    height: 58vh;
+    margin: 60px auto 10px auto;
+    border: solid 2px black;
+    color: var(--color-lt);
+    text-align: center;
+    border-radius: 20px;
+}
+
+#nome_prod{
+    margin: 10px;
+    font-size: 1.3em;
+    display: inline-block;
+}
+
+#label_prod{
+    margin: 8px;
+    text-align: center;
+    width: 65%;
+    height:6%;
+    border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+#tipo{
+    font-size: 1.3em;
+    color: var(--color-lt);
+    font-family: 'Times New Roman', Times, serif;
+}
+   
+#option{
+    width: 45%;
+    height: 6%;
+    text-indent: 44%;
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 5px;
+}
+
+#descrição{
+    margin: 15px;
+    text-align: center;
+    font-size: 1.3em;
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#desc{
+    margin-top: 10px;
+    max-height: 14vh;
+    max-width: 14vw;
+    min-width: 14vw;
+    min-height: 15vh;
+    border-radius: 10px;
+}
+
+#nserie{
+    margin: 10px;
+    font-size: 1.3em;
+}
+#input_serie{
+    margin: 8px;
+    text-align: center;
+    width: 65%;
+    height:6%;
+    border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+#qtd{
+    margin-top: 10px;
+    font-size: 1.1em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#quantidade{
+    width: 2vw;
+    height: 2vh;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+#salvar{
+    width: 4vw;
+    height: 4vh;
+    font-size: 1.2em;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 20px;
+    background-color: var(--main-cl);
+
+}
+#salvar:hover{
+    width: 4.5vw;
+    height: 4.5vh;
+    background-color: var(--bg-hover);
+    color: aqua;
+}
+
+#salvar:focus{
+    outline:none;
+    box-shadow: none;
+}
+
+#salvar:active{
+    width: 4.5vw;
+    height: 4.5vh;
+    background-color: var(--bg-hover);
+    color: aqua;
+    /* position: relative;
+    top: 2px; Faz mesma coisa que o tranform*/
+    transform: translateY(2px);
+    
+
+}
+
+footer{
+    background-color: var(--main-cl);
+    height: 7vh;
+    width: 100%;
+    border-top: solid 3px black;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+#figrp{
+    width: 6vw;
+    height: 6vh;
+    margin :8px;
+    position: relative;
+    float: right;
+}
+
+

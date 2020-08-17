@@ -1,0 +1,100 @@
+:root{
+    --main-cl: #802a9c;
+    --color-lt: black;
+    --main-bg:rgb(118, 172, 223);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: var(--main-bg);
+}
+header{
+    background-color: var(--main-cl);
+    height: 9vh;
+    border-bottom: 3px solid black;
+    
+}
+header img{
+    width: 6vw;
+    height: 6vh;
+    margin-top: 15px;
+}
+
+header ul a{
+    text-decoration: none;
+    color: var(--color-lt);
+    position: relative;
+    float: right;
+    margin: 35px 35px 0px 0px;
+    font-size: 1.5em;
+}
+
+footer{
+    background-color: var(--main-cl);
+    height: 7vh;
+    width: 100%;
+    border-top: solid 3px black;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+#div_pesq{
+    margin: 6vh auto 0 3vw;
+    border-radius: 20px;
+    border: solid black 3px;
+    width: 15%;
+    padding: 8px;
+    background-color: var(--main-cl);
+}
+
+#label_pesquisa{
+    font-size: 1.2em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#input_pesquisa{
+    border-radius: 20px;
+    height: 2vh;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+}
+
+caption{
+    margin: 5px auto 10px auto;
+    font-size: 1.3em;
+    border-radius: 20px;
+    border: solid black 3px;
+    background-color: var(--main-cl);
+    width: 15%;
+    padding: 3px;
+}
+
+#table{
+    margin: 8vh auto 0 auto;
+    border-radius: 5px;
+    width: 50%;
+    background-color: #C0C0C0;
+    border: solid black 3px;
+}
+
+#table tr:hover{
+    background-color: rgb(163, 160, 160);
+}
+
+#table td{
+    margin: 3px;
+    padding: 4px;
+    text-align: center;
+}
+
+#figrp{
+    width: 6vw;
+    height: 6vh;
+    margin :8px;
+    position: relative;
+    float: right;
+}
